@@ -34,3 +34,7 @@ body {
 .counter {
     background: var(--color-dark-grey);
 }
+
+.counter_value {
+    width: 100%;
+} 
