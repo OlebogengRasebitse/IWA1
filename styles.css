@@ -47,4 +47,25 @@ body {
     border-bottom: 1px solid var(--color-light-grey);
 } 
 
-.counter_b
+.counter_action {
+display: flex;
+}
+
+.conter_button {
+    width: 50%;
+    background: none;
+    border-width: 0;
+    color: var(--color-light-grey);
+    font-size: 3rem;
+    height: 10rem;
+}
+
+.conter_button_first {
+    border-right: 1px solid:var(var(--color-light-grey));
+}
+
+.footer {
+    background: var(--color-dark-grey);
+    color: var(--color-medium-grey);
+
+}
