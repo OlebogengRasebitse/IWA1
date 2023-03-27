@@ -4,13 +4,17 @@ const add = document.querySelector('[data-key="add"]')
 
 
 const subtractHandler = () => {
-const newValue = parseInt(number.value) -1
-number.value = newValue
+    const newValue = parseInt(number.value) - 1
+    number.value = newValue
 }
+
+
 
 const addHandler = () => {
-    console.log('add was clicked')
+    const newValue = parseInt(number.value) + 1 
+    number.value = newValue
+   
 }
 
-subtract.addEventListener('click',subtractHandler)
+subtract.addEventListener('click', subtractHandler)
 add.addEventListener('click', addHandler)
