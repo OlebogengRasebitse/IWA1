@@ -20,3 +20,17 @@ body {
 }
 
 /*------Header-----*/
+.header {
+    text-align: center;
+}
+
+/*---Controls----*/
+.controls {
+    background: yellow;
+}
+
+/*------Counter----*/
+
+.counter {
+    background: var(--color-dark-grey);
+}
