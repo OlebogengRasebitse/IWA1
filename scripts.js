@@ -1,17 +1,16 @@
-const number = document.querySelector('[data-keys="number"]')
-const subtract = document.querySelector('[data-keys="subtract"]')
+const number = document.querySelector('[data-key="number"]')
+const subtract = document.querySelector('[data-key="subtract"]')
 const add = document.querySelector('[data-key="add"]')
 
-const subtractHandler = () =>{
-    console.log('subtract was clicked')
+
+const subtractHandler = () => {
+const newValue = parseInt(number.value) -1
+number.value = newValue
 }
 
-
- const addHandler = () =>{
+const addHandler = () => {
     console.log('add was clicked')
- }
+}
 
-
-subtract.addEventListener('click', subtractHandler)
-
+subtract.addEventListener('click',subtractHandler)
 add.addEventListener('click', addHandler)
